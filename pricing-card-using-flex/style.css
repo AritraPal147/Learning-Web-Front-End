@@ -80,19 +80,14 @@
   
   #price-container {
     margin-bottom: 5px;
-  }
-  
-  #price-frequency,
-  #price {
-    display: inline-block;
+    display: flex;
+    align-items: center;
   }
   
   #price-frequency {
-    position: relative;
-    top: -3px;
     font-size: 0.8rem;
     color: #e5eff5;
-    margin-bottom: 5px;
+    margin-left: 5px;
   }
   
   #price {
